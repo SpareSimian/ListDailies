@@ -1,0 +1,11 @@
+## Interface: 70000
+## Title: ListDailies
+## Notes: Lists dailies available around the world
+## Author: SpareSimian
+## Version: 7.0.001
+## Dependencies: Ace3
+## SavedVariables: ListDailiesDB
+
+ConnectedRealms.lua
+ListDailies.lua
+
