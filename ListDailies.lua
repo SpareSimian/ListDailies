@@ -41,6 +41,8 @@ local function expireDailies(realmName)
 end
 
 function addon:OnInitialize()
+	local ver = GetAddOnMetadata("ListDailies","Version") or '1.0'
+	DEFAULT_CHAT_FRAME:AddMessage(string.format("|cffFF4500%s|r [v|cff00ff00%s|r] Loaded", "ListDailies", ver or "1.0"));
 	addon.db = LibStub("AceDB-3.0"):New(addonName .. "DB", AddonDB_Defaults)
 end
 

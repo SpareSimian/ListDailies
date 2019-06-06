@@ -1,8 +1,8 @@
-## Interface: 70000
+## Interface: 80100
 ## Title: ListDailies
 ## Notes: Lists dailies available around the world
 ## Author: SpareSimian
-## Version: 7.0.001
+## Version: 7.1.001
 ## Dependencies: Ace3
 ## SavedVariables: ListDailiesDB
 
