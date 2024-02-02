@@ -1,4 +1,5 @@
--- list from http://us.battle.net/wow/en/blog/11393305
+-- original list from https://web.archive.org/web/20131231124043/http://us.battle.net/wow/en/blog/11393305
+-- latest lists seem to be here: https://us.battle.net/support/en/article/14296
 
 local connectedRealmsUS = {
 
