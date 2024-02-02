@@ -75,17 +75,11 @@ end
 
 local function OnGossipShow()
 	-- addon:Print("OnGossipShow")
-	local questCount = GetNumGossipAvailableQuests()
-	local quests = {GetGossipAvailableQuests()}
-	-- number of data items returned per quest
-	local dataPerQuest = 6
-	-- offsets into quests array for each kind of quest info
-	local offsetTitle = 1
-	local offsetIsDaily = 4
+	local questCount = C_GossipInfo.GetNumAvailableQuests()
+	local quests = C_GossipInfo.GetAvailableQuests()
 	for i = 1, questCount do
-		local base = dataPerQuest * (i - 1)
-		local title = quests[base + offsetTitle]
-		local isDaily = LE_QUEST_FREQUENCY_DAILY == quests[base + offsetIsDaily]
+		local title = quests[i].title
+		local isDaily = LE_QUEST_FREQUENCY_DAILY == quests[i].frequency
 		if isDaily then RecordDaily(title) end
 	end
 	SendRecords()
