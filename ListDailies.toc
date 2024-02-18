@@ -2,9 +2,15 @@
 ## Title: ListDailies
 ## Notes: Lists dailies available around the world
 ## Author: SpareSimian
-## Version: 7.1.002
-## Dependencies: Ace3
+## Version: 7.1.003
 ## SavedVariables: ListDailiesDB
+
+Libs\LibStub\LibStub.lua
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceComm-3.0\AceComm-3.0.xml
+Libs\AceSerializer-3.0\AceSerializer-3.0.xml
 
 ConnectedRealms.lua
 ListDailies.lua
