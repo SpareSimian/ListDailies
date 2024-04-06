@@ -2,7 +2,7 @@
 ## Title: ListDailies
 ## Notes: Lists dailies available around the world
 ## Author: SpareSimian
-## Version: 7.1.003
+## Version: 10.2.6-1
 ## SavedVariables: ListDailiesDB
 
 Libs\LibStub\LibStub.lua
