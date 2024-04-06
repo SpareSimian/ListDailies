@@ -1,4 +1,4 @@
-## Interface: 10205
+## Interface: 100206
 ## Title: ListDailies
 ## Notes: Lists dailies available around the world
 ## Author: SpareSimian
