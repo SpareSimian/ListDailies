@@ -1,8 +1,8 @@
-## Interface: 100206
+## Interface: 100207
 ## Title: ListDailies
 ## Notes: Lists dailies available around the world
 ## Author: SpareSimian
-## Version: 10.2.6-1
+## Version: 10.2.7-0
 ## SavedVariables: ListDailiesDB
 
 Libs\LibStub\LibStub.lua
