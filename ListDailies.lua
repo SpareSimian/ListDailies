@@ -2,6 +2,7 @@
 local addonName = "ListDailies"
 
 -- read TOC values
+local GetAddOnMetadata = C_AddOns and C_AddOns.GetAddOnMetadata or GetAddOnMetadata
 local addonVersion = GetAddOnMetadata(addonName, "Version")
 
 _G[addonName] = LibStub("AceAddon-3.0"):NewAddon(addonName, "AceConsole-3.0", "AceEvent-3.0","AceComm-3.0", "AceSerializer-3.0")
